@@ -1,0 +1,833 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Unique_ID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Company_type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Company",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Element_price_control",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Element_acronym",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Outcome",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PC_ref_company",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PR14_Annex_4_order",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Performance_commitment",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ODI_type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ODI_form",
+				"type": "nvarchar"
+			},
+			{
+				"name": "In_period_ODI",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Standard_vanilla_financial_ODI",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Primary_category",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PC_unit",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PC_unit_description",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Decimal_places",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Direction_of_improving_performance",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2014_15_starting_level_PR14_FD",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AMP6_performance_commitment_levels_2015_16_PCL",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AMP6_performance_commitment_levels_2016_17_PCL",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AMP6_performance_commitment_levels_2017_18_PCL",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AMP6_performance_commitment_levels_2018_19_PCL",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AMP6_performance_commitment_levels_2019_20_PCL",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Drinking_water_quality_compliance",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Water_quality_contacts",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Supply_interruptions_3_hours",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Pollution_incidents_cat_3",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Internal_sewer_flooding",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Scheme_specific_factors_all_or_part",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Asset_health_resilience_all_or_part",
+				"type": "nvarchar"
+			},
+			{
+				"name": "NEP_all_or_part",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AIM",
+				"type": "nvarchar"
+			},
+			{
+				"name": "No_of_sub_measures",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Financial_ODI_milestone_may_accrue_or_apply_2015_16",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Financial_ODI_milestone_may_accrue_or_apply_2016_17",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Financial_ODI_milestone_may_accrue_or_apply_2017_18",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Financial_ODI_milestone_may_accrue_or_apply_2018_19",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Financial_ODI_milestone_may_accrue_or_apply_2019_20",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Underperformance_payment_collar_2015_16",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Underperformance_payment_collar_2016_17",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Underperformance_payment_collar_2017_18",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Underperformance_payment_collar_2018_19",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Underperformance_payment_collar_2019_20",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Underperformance_payment_deadband_2015_16",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Underperformance_payment_deadband_2016_17",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Underperformance_payment_deadband_2017_18",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Underperformance_payment_deadband_2018_19",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Underperformance_payment_deadband_2019_20",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Outperformance_payment_deadband_2015_16",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Outperformance_payment_deadband_2016_17",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Outperformance_payment_deadband_2017_18",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Outperformance_payment_deadband_2018_19",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Outperformance_payment_deadband_2019_20",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Outperformance_payment_cap_2015_16",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Outperformance_payment_cap_2016_17",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Outperformance_payment_cap_2017_18",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Outperformance_payment_cap_2018_19",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Outperformance_payment_cap_2019_20",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Underperformance_payment_1_incentive_rate_m",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Underperformance_payment_2_incentive_rate_m",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Underperformance_payment_3_incentive_rate_m",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Underperformance_payment_4_incentive_rate_m",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Outperformance_payment_1_incentive_rate_m",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Outperformance_payment_2_incentive_rate_m",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Standard_ODI_operand",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Standard_ODI_operand_note",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2014_15_performance_level_actual",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2015_16_performance_level_actual",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2015_16_PCL_met",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2015_16_outperformance_payment_or_underperformance_payment_in_period_ODIs",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2015_16_outperformance_payment_or_underperformance_payment_in_period_ODIs_m",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "_2015_16_notional_outperformance_payment_or_underperformance_payment_accrued_at_31_March_2016",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2015_16_notional_outperformance_payment_or_underperformance_payment_accrued_at_31_March_2016_m",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Total_AMP6_outperformance_payment_or_underperformance_payment_31_March_2020_forecast",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Total_AMP6_outperformance_payment_or_underperformance_payment_31_March_2020_forecast_m",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "_2016_17_performance_level_actual",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2016_17_PCL_met",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2016_17_outperformance_payment_or_underperformance_payment_in_period_ODIs",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2016_17_outperformance_payment_or_underperformance_payment_in_period_ODIs_m",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "_2016_17_notional_outperformance_payment_or_underperformance_payment_accrued_at_31_March_2017",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2016_17_notional_outperformance_payment_or_underperformance_payment_accrued_at_31_March_2017_m",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Total_AMP6_outperformance_payment_or_underperformance_payment_31_March_2020_forecast1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Total_AMP6_outperformance_payment_or_underperformance_payment_31_March_2020_forecast_m1",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "_2017_18_performance_level_actual",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2017_18_PCL_met",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2017_18_outperformance_payment_or_underperformance_payment_in_period_ODIs",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2017_18_outperformance_payment_or_underperformance_payment_in_period_ODIs_m",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "_2017_18_notional_outperformance_payment_or_underperformance_payment_accrued_at_31_March_2018",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2017_18_notional_outperformance_payment_or_underperformance_payment_accrued_at_31_March_2018_m",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Total_AMP6_outperformance_payment_or_underperformance_payment_31_March_2020_forecast2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Total_AMP6_outperformance_payment_or_underperformance_payment_31_March_2020_forecast_m2",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "_2018_19_performance_level_actual",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2018_19_PCL_met",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2018_19_outperformance_payment_or_underperformance_payment_in_period_ODIs",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2018_19_outperformance_payment_or_underperformance_payment_in_period_ODIs_m",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "_2018_19_notional_outperformance_payment_or_underperformance_payment_accrued_at_31_March_2019",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2018_19_notional_outperformance_payment_or_underperformance_payment_accrued_at_31_March_2019_m",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Total_AMP6_outperformance_payment_or_underperformance_payment_31_March_2020_forecast3",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Total_AMP6_outperformance_payment_or_underperformance_payment_31_March_2020_forecast_m3",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "_2019_20_performance_level_actual",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2019_20_PCL_met",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2019_20_outperformance_payment_or_underperformance_payment_in_period_ODIs",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2019_20_outperformance_payment_or_underperformance_payment_in_period_ODIs_m",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "_2019_20_notional_outperformance_payment_or_underperformance_payment_accrued_at_31_March_2020",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2019_20_notional_outperformance_payment_or_underperformance_payment_accrued_at_31_March_2020_m",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Total_AMP6_outperformance_payment_or_underperformance_payment_31_March_2020_forecast_NOT_USED",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Total_AMP6_outperformance_payment_or_underperformance_payment_31_March_2020_forecast_m_NOT_USED",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Water_resources",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Water_network_plus",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Wastewater_network_plus",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Bioresources_sludge",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Residential_retail",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Business_retail",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Direct_procurement_for_customers",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Dummy_control",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Total",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ODI_form_UU_and_YKY_only_values_highlighted_in_red_should_be_amended_to_Revenue_RCV_or_SHLDER",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Water_resources_in_period",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Water_resources_end_of_AMP",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Water_network_plus_in_period",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Water_network_plus_end_of_AMP",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Wastewater_network_plus_in_period",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Wastewater_network_plus_end_of_AMP",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Bioresources_sludge_in_period",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Bioresources_sludge_end_of_AMP",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Residential_retail_in_period",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Residential_retail_end_of_AMP",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Business_retail_in_period",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Business_retail_end_of_AMP",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Direct_procurement_for_customers_in_period",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Direct_procurement_for_customers_end_of_AMP",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Dummy_control_in_period",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Dummy_control_end_of_AMP",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Total_in_period",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Total_end_of_AMP",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Total_all",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Company1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2015_16_breach_type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2015_16_PC_units_over_under_cap_collar",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2015_16_proportion_of_out_under_performance_above_below_cap_collar",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2015_16_m_not_paid_accrued_foregone",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2016_17_breach_type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2016_17_PC_units_over_under_cap_collar",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2016_17_proportion_of_out_under_performance_above_below_cap_collar",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2016_17_m_not_paid_accrued_foregone",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2017_18_breach_type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2017_18_PC_units_over_under_cap_collar",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2017_18_proportion_of_out_under_performance_above_below_cap_collar",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2017_18_m_not_paid_accrued_foregone",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2018_19_breach_type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2018_19_PC_units_over_under_cap_collar",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2018_19_proportion_of_out_under_performance_above_below_cap_collar",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2018_19_m_not_paid_accrued_foregone",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2019_20_breach_type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2019_20_PC_units_over_under_cap_collar",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2019_20_proportion_of_out_under_performance_above_below_cap_collar",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2019_20_m_not_paid_accrued_foregone",
+				"type": "nvarchar"
+			},
+			{
+				"name": "No_of_underperformance_collar_breaches",
+				"type": "nvarchar"
+			},
+			{
+				"name": "No_of_outperformance_cap_breaches",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Total_no_of_breaches_use_this_column_to_filter_for_all_breaches",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Temporary_comms_filter",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2014_15_baseline",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2015_16",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2016_17",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2017_18",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2018_19",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2019_20",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2016_17_to_2014_15_FD_baseline_AMP_so_far",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2014_15_to_2015_16",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2015_16_to_2016_17",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2016_17_to_2017_18",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2017_18_to_2018_19",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2018_19_to_2019_20",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2014_15_to_2016_17_AMP_so_far",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2015_16_ODIs_in_period_and_end_of_AMP",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "_2016_17_ODIs_in_period_and_end_of_AMP",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "_2017_18_ODIs_in_period_and_end_of_AMP",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "_2018_19_ODIs_in_period_and_end_of_AMP",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "_2019_20_ODIs_in_period_and_end_of_AMP",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "_2015_20_ODIs_in_period_and_end_of_AMP_CUMULATIVE_ACTUALS",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Not_used",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2019_20_ODIs_in_period_and_end_of_AMP_JULY_2019_FORECASTS",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "_2015_20_ODIs_in_period_and_end_of_AMP_TOTAL_INCLUDING_JULY_2019_FORECASTS",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "_2019_20_ODIs_in_period_and_end_of_AMP_July_2019_forecast",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "_2019_20_ODIs_in_period_and_end_of_AMP_July_2020_actual",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "_2019_20_ODIs_in_period_and_end_of_AMP_July_2019_forecast_and_July_2020_actual_difference",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "_2019_20_performance_commitment_level_copied_from_column_X",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2019_20_performance_July_2019_forecast_copied_from_column_DU",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_2019_20_performance_July_2020_actual_copied_from_column_CW",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Column_191",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Column_192",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Service_Delivery_Report",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Comparative_assessment_used_in_the_20xx_APR_comparative_worksheets",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ODI_type1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Performance_commitment1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "For_internal_use_not_for_publication",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "pr14_pclist"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

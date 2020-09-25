@@ -1,0 +1,12 @@
+{
+	"name": "AzureSqlDatabase2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=oceandev.database.windows.net;initial catalog=Ocean;user id=oceanadmin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkNMT1VERklSU1REQVRBRkFDVE9SWV84ZmI0YWRhMC1mNGU2LTRhMzUtYmNiMi04NzQ5YjA2MDM0MzkiDQp9"
+		}
+	}
+}
